@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+const handleExportExcel = () => {
+  const startdate = '2023-01-07';
+  const enddate = '2025-07-17';
+
+  const url = `https://qvarateapi.onrender.com/api/get-excel/${startdate}/${enddate}`;
+
+  fetch(url, {
+    method: 'GET',
+    headers: {
+      'Accept': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+    },
+    mode: 'cors',
+  })
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Error al descargar el archivo: ${response.status} ${response.statusText}`);
+      }
+      return response.blob();
+    })
+    .then(blob => {
+      const a = document.createElement('a');
+      const fileUrl = URL.createObjectURL(blob);
+      a.href = fileUrl;
+      a.download = `Tasa de Cambio ${startdate} - ${enddate}.xlsx`;
+      a.click();
+
+      URL.revokeObjectURL(fileUrl);
+      console.log('Archivo descargado');
+    })
+    .catch(error => {
+      console.error('Hubo un error:', error.message);
+      alert(`Error al descargar archivo: ${error.message}`);
+    });
+};handleExportExcel();
+</script>
+</html>

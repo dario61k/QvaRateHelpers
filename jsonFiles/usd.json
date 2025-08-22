@@ -1,0 +1,206 @@
+[
+  {
+    "_id": "2025-07-22",
+    "min": 350,
+    "max": 430,
+    "avg": 388.44,
+    "count_values": 105,
+    "median": 388,
+    "standard_deviation": 34.84,
+    "first": {
+      "value": 385,
+      "date": "2025-07-21 16:51:16"
+    },
+    "last": {
+      "value": 392,
+      "date": "2025-07-22 05:23:01"
+    }
+  },
+  {
+    "_id": "2025-07-23",
+    "min": 362,
+    "max": 415,
+    "avg": 387.45,
+    "count_values": 685,
+    "median": 387,
+    "standard_deviation": 15.34,
+    "first": {
+      "value": 380,
+      "date": "2025-07-22 07:08:02"
+    },
+    "last": {
+      "value": 388,
+      "date": "2025-07-23 06:47:53"
+    }
+  },
+  {
+    "_id": "2025-07-24",
+    "min": 380,
+    "max": 400,
+    "avg": 388.46,
+    "count_values": 587,
+    "median": 390,
+    "standard_deviation": 5.8,
+    "first": {
+      "value": 387,
+      "date": "2025-07-23 07:03:16"
+    },
+    "last": {
+      "value": 387,
+      "date": "2025-07-24 06:41:33"
+    }
+  },
+  {
+    "_id": "2025-07-25",
+    "min": 370,
+    "max": 425,
+    "avg": 389.78,
+    "count_values": 638,
+    "median": 390,
+    "standard_deviation": 21.81,
+    "first": {
+      "value": 390,
+      "date": "2025-07-24 07:00:30"
+    },
+    "last": {
+      "value": 385,
+      "date": "2025-07-25 04:47:59"
+    }
+  },
+  {
+    "_id": "2025-07-26",
+    "min": 380,
+    "max": 400,
+    "avg": 389.82,
+    "count_values": 612,
+    "median": 390,
+    "standard_deviation": 5.88,
+    "first": {
+      "value": 392,
+      "date": "2025-07-25 07:09:08"
+    },
+    "last": {
+      "value": 385,
+      "date": "2025-07-26 06:58:42"
+    }
+  },
+  {
+    "_id": "2025-07-27",
+    "min": 350,
+    "max": 428,
+    "avg": 390.47,
+    "count_values": 539,
+    "median": 390,
+    "standard_deviation": 24.6,
+    "first": {
+      "value": 395,
+      "date": "2025-07-26 07:17:22"
+    },
+    "last": {
+      "value": 387,
+      "date": "2025-07-27 05:12:00"
+    }
+  },
+  {
+    "_id": "2025-07-28",
+    "min": 382,
+    "max": 398,
+    "avg": 390.71,
+    "count_values": 530,
+    "median": 390,
+    "standard_deviation": 4.65,
+    "first": {
+      "value": 390,
+      "date": "2025-07-27 07:04:19"
+    },
+    "last": {
+      "value": 395,
+      "date": "2025-07-28 06:55:09"
+    }
+  },
+  {
+    "_id": "2025-07-29",
+    "min": 370,
+    "max": 425,
+    "avg": 391.26,
+    "count_values": 638,
+    "median": 390,
+    "standard_deviation": 20.72,
+    "first": {
+      "value": 392,
+      "date": "2025-07-28 07:04:01"
+    },
+    "last": {
+      "value": 387,
+      "date": "2025-07-29 06:58:00"
+    }
+  },
+  {
+    "_id": "2025-07-30",
+    "min": 360,
+    "max": 425,
+    "avg": 391.36,
+    "count_values": 531,
+    "median": 390,
+    "standard_deviation": 19.6,
+    "first": {
+      "value": 388,
+      "date": "2025-07-29 07:04:43"
+    },
+    "last": {
+      "value": 390,
+      "date": "2025-07-30 06:52:25"
+    }
+  },
+  {
+    "_id": "2025-07-31",
+    "min": 383,
+    "max": 400,
+    "avg": 391.88,
+    "count_values": 562,
+    "median": 392,
+    "standard_deviation": 5.4,
+    "first": {
+      "value": 390,
+      "date": "2025-07-30 07:01:47"
+    },
+    "last": {
+      "value": 395,
+      "date": "2025-07-31 02:55:35"
+    }
+  },
+  {
+    "_id": "2025-08-01",
+    "min": 375,
+    "max": 415,
+    "avg": 392.82,
+    "count_values": 579,
+    "median": 393,
+    "standard_deviation": 13.1,
+    "first": {
+      "value": 392,
+      "date": "2025-07-31 07:18:38"
+    },
+    "last": {
+      "value": 390,
+      "date": "2025-08-01 05:56:28"
+    }
+  },
+  {
+    "_id": "2025-08-02",
+    "min": 380,
+    "max": 420,
+    "avg": 393.41,
+    "count_values": 639,
+    "median": 393,
+    "standard_deviation": 14.88,
+    "first": {
+      "value": 395,
+      "date": "2025-08-01 07:01:54"
+    },
+    "last": {
+      "value": 385,
+      "date": "2025-08-02 06:45:32"
+    }
+  }
+]
